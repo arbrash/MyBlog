@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>BlogServlet</servlet-name>
+        <servlet-class>arbrash.blog.BlogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BlogServlet</servlet-name>
+        <url-pattern>/servlet/BlogServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetBlogServlet</servlet-name>
+        <servlet-class>arbrash.blog.GetBlogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetBlogServlet</servlet-name>
+        <url-pattern>/servlet/GetBlogServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetBlogListServlet</servlet-name>
+        <servlet-class>arbrash.blog.GetBlogListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetBlogListServlet</servlet-name>
+        <url-pattern>/servlet/GetBlogListServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetAboutMeServlet</servlet-name>
+        <servlet-class>arbrash.blog.GetAboutMeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetAboutMeServlet</servlet-name>
+        <url-pattern>/servlet/GetAboutMeServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>arbrash.blog.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/servlet/UserServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>adminBlogListServlet</servlet-name>
+        <servlet-class>arbrash.blog.adminBlogListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminBlogListServlet</servlet-name>
+        <url-pattern>/servlet/adminBlogListServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteBlogServlet</servlet-name>
+        <servlet-class>arbrash.blog.DeleteBlogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteBlogServlet</servlet-name>
+        <url-pattern>/servlet/DeleteBlogServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>preEditBlogServlet</servlet-name>
+        <servlet-class>arbrash.blog.preEditBlogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>preEditBlogServlet</servlet-name>
+        <url-pattern>/servlet/preEditBlogServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>postEditBlogServlet</servlet-name>
+        <servlet-class>arbrash.blog.postEditBlogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>postEditBlogServlet</servlet-name>
+        <url-pattern>/servlet/postEditBlogServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CommentServlet</servlet-name>
+        <servlet-class>arbrash.blog.CommentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CommentServlet</servlet-name>
+        <url-pattern>/servlet/CommentServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
